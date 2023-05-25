@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="Bootstrap">
@@ -23,13 +23,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Bakcpack</a>
+                    <a class="nav-link" href="#bags">Bakcpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#Subscribe">Subscribe</a>
                   </li>
                   
                 </ul>
@@ -134,7 +134,7 @@
 
 
         <!-------------------- shoes section  ---------------------->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
           <h2 class="pt-5 my-5 d-flex justify-content-center fs-1 fw-bold">Shoes</h2>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
@@ -197,7 +197,7 @@
 
         <!-------------------- Backpack section  ---------------------->
 
-        <section class="container my-5">
+        <section class="container my-5" id="bags">
           <h2 class="pt-5 my-5 d-flex justify-content-center fs-1 fw-bold">Bags</h2>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
@@ -255,7 +255,33 @@
 
         </section>
         <!-------------------- Backpack section  ---------------------->
+
+
+
+        <!-------------------- Bottom Section  -------------------------------->
+        <section id="Subscribe" style="height: 350px;" class="container d-flex justify-content-center align-items-center mt-5  bg-warning rounded-4 ">
+          <div>
+            <h2>Let's stay in touch</h2>
+          <p class="disable">Get Upadate on Sales, Specials and More</p>
+          <form>
+            <div class="mb-1">              
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">              
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          </div>
+
+        </section>
+
+
+
+
+        <!-------------------- Bottom Section  -------------------------------->
     </main>
+
+    <footer class="mt-5 pt-5  text-center text-secondary">
+      <p><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
 
 
     
